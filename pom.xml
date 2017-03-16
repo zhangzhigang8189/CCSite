@@ -6,7 +6,7 @@
   <artifactId>ccsite</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-  <name>ccsite</name>
+  <name>CCSiteTest</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -21,7 +21,7 @@
     </dependency>
   </dependencies>
   <build>
-		<finalName>CCSite</finalName>
+		<finalName>CCSiteTest</finalName>
 		<pluginManagement>
 			<plugins>
 				<plugin>
