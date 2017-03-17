@@ -717,3 +717,49 @@ textarea {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
+.fh5co-heading {
+	 margin-bottom: 2em;
+ }
+
+.row-pb-md {
+	padding-bottom: 4em !important;
+}
+
+#fh5co-services,
+#fh5co-started,
+#fh5co-testimonial,
+#fh5co-blog,
+#fh5co-project,
+#fh5co-about,
+#fh5co-team,
+#fh5co-contact,
+#fh5co-footer {
+	padding: 7em 0;
+	clear: both;
+}
+@media screen and (max-width: 768px) {
+	#fh5co-services,
+	#fh5co-started,
+	#fh5co-testimonial,
+	#fh5co-blog,
+	#fh5co-project,
+	#fh5co-about,
+	#fh5co-team,
+	#fh5co-contact,
+	#fh5co-footer {
+		padding: 3em 0;
+	}
+}
+#fh5co-project .fh5co-project > a .fh5co-copy {
+	z-index: 12;
+	position: absolute;
+	right: 20px;
+	left: 20px;
+	bottom: 0px;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+
