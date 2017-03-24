@@ -8,7 +8,7 @@
   <packaging>war</packaging>
 
 
-  <name>ROOT</name>
+  <name>CCSite</name>
 
   
 
@@ -28,7 +28,7 @@
   <build>
 
 
-		<finalName>ROOT</finalName>
+		<finalName>CCSite</finalName>
 
 
 		<pluginManagement>
