@@ -5,21 +5,17 @@
 <!--<![endif]-->
 <head>
 		<meta charset="utf-8">
-		<title>能力中心</title>
+		<title>Capability Center-training</title>
 		<meta name="description" content="Worthy a Bootstrap-based, Responsive HTML5 Template">
 		<meta name="author" content="htmlcoder.me">
 
 		<!-- Mobile Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="images/favicon.ico">
-
 		<!-- Web Fonts -->
-
 		<!-- Bootstrap core CSS -->
 		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-
 		<!-- Font Awesome CSS -->
 		<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
 
@@ -31,6 +27,14 @@
 
 		<!-- Custom css -->
 		<link href="css/custom.css" rel="stylesheet">
+		<style>
+.activity-name:hover {
+    color: #55acee;
+}
+.activity-name a {
+    color: #fff;
+}			
+		</style>
 	</head>
 
 	<body class="no-trans">
@@ -56,8 +60,8 @@
 
 							<!-- name-and-slogan -->
 							<div class="site-name-and-slogan smooth-scroll">
-								<div class="site-name"><a href="#banner">能力与创新中心</a></div>
-								<div class="site-slogan">改善员工的能力和生活 </div>
+								<div class="site-name"><a href="#banner">Capability Center</a></div>
+								<div class="site-slogan">Make employee's ability and life better </div>
 							</div>
 
 						</div>
@@ -92,15 +96,14 @@
 										<!-- Collect the nav links, forms, and other content for toggling -->
 										<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
 											<ul class="nav navbar-nav navbar-right">
-												<li><a href="index.html">主页</a></li>
-												<li class="active"><a href="#new">最新培训</a></li>
+												<li><a href="index.html">Home</a></li>
+												<li class="activity-name"><a href="activity.html">Latest Activities</a></li>												
+												<li class="active"><a href="#new">Latest Training</a></li>
 											</ul>
 										</div>
-
 									</div>
 								</nav>
 								<!-- navbar end -->
-
 							</div>
 							<!-- main-navigation end -->
 
@@ -121,8 +124,8 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 object-non-visible" data-animation-effect="fadeIn">
-							<h1 class="text-center"><span>能力中心</span>培训动态</h1>
-							<p class="lead">能力中心通过组织线上线下培训，拉通各个交付部的培训资源，促进了各个交付部的横向沟通，以达到共享资源，交流沟通的目的。</p>
+							<h1 class="text-center"><span>Training dynamic in</span> capability center</h1>
+							<p class="lead">The ability center organizes online and offline training, trains the training resources of each delivery department, and promotes the horizontal communication of each delivery department to achieve Shared resources and communication purpose.</p>
 						</div>
 					</div>
 				</div>
@@ -133,18 +136,17 @@
 
 		<div class="section" id="trainingService">
 			<div class="container">
-				<h1 class="text-center title" >培训动态</h1>
+				<h1 class="text-center title" >Training dynamic</h1>
 				<div class="separator"></div>
 
 				<div class="row">
-
 					<div class="col-md-12">
 						<div class="panel-group" id="trainingAccordion" role="tablist" aria-multiselectable="true">
 							<div class="panel panel-default">
 								<div class="panel-heading" role="tab" id="trainingHeading1">
 									<h4 class="panel-title">
 										<a data-toggle="collapse" data-parent="#trainingAccordion" href="#trainingCollapse1" aria-expanded="true" aria-controls="trainingCollapse1">
-											即将进行的培训
+											Upcoming training
 										</a>
 									</h4>
 								</div>
@@ -155,12 +157,12 @@
 												<caption></caption>
 												<thead>
 												<tr>
-													<th>课程名称</th>
-													<th>讲师</th>
-													<th>参与部门</th>
-													<th>时间</th>
-													<th>状态</th>
-													<th>地点</th>
+													<th>Course name</th>
+													<th>Trainer</th>
+													<th>Participating departments</th>
+													<th>Course Duration </th>
+													<th>State</th>
+													<th>Location</th>
 												</thead>
 												<tbody>
 												<tr>
@@ -194,39 +196,116 @@
 													<td>每周四，16:00-18:00</td>
 													<td>进行中</td>
 													<td>F1栋西2F培训室</td>			
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="trainingHeading2">
+									<h4 class="panel-title">
+										<a class="collapsed" data-toggle="collapse" data-parent="#trainingAccordion" href="#trainingCollapse2" aria-expanded="false" aria-controls="trainingCollapse2">
+											Completed training
+										</a>
+									</h4>
+								</div>
+								<div id="trainingCollapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="trainingHeading2">
+									<div class="panel-body">
+										<div class="table-responsive">
+											<table class="table">
+												<caption></caption>
+												<thead>
+												<tr>
+													<th>Course name</th>
+													<th>Trainer</th>
+													<th>Participating departments</th>
+													<th>Course Duration </th>
+													<th>State</th>
+													<th>Location</th>
+												</thead>	
+												<tbody>	
 												<tr>																								
-													<td>Mulesoft技术培训</td>
+													<td>mulesoft</td>
 													<td>党勇</td>
-													<td>第四&三&二事业部、44人</td>
-													<td>2017/10/14，9:00-12:30</td>
-													<td>即将进行</td>
+													<td>网银交付部21人 </td>
+													<td>2017/11/11,13:30-18:00</td>
+													<td>已完成 </td>
+													<td>3.1会议室</td>													
+												</tr>														
+												<tr>																								
+													<td>mulesoft</td>
+													<td>何益龙</td>
+													<td>移动交付部21人 </td>
+													<td>2017/11/11,9:00-12:30</td>
+													<td>已完成 </td>
+													<td>3.1会议室</td>													
+												</tr>														
+												<tr>																								
+													<td>mulesoft</td>
+													<td>张俊</td>
+													<td>财富管理交付部 </td>
+													<td>2017/11/5,9:00-12:00 13:00-18:00</td>
+													<td>已完成 </td>
 													<td>3.1会议室</td>													
 												</tr>	
 												<tr>																								
-													<td>Mulesoft技术培训</td>
-													<td>何益龙</td>
-													<td>第四&三&二事业部、44人</td>
-													<td>2017/10/14，13:30-18:00</td>
-													<td>即将进行 </td>
+													<td>mulesoft</td>
+													<td>娄麒麟</td>
+													<td>渠道交付部21人</td>
+													<td>2017/11/4,9:00-12:30</td>
+													<td>已完成 </td>
 													<td>3.1会议室</td>													
-												</tr>	
-												<tr>											
-													<td>Mulesoft技术培训</td>
-													<td>张永泽</td>
-													<td>第一事业部、42人</td>
-													<td>2017/10/15，9:00-12:00、13:00-18:00</td>
-													<td>即将进行 </td>
+												</tr>															
+												<tr>																								
+													<td>mulesoft</td>
+													<td>张银龙</td>
+													<td>渠道交付部21人</td>
+													<td>2017/11/4,13:30-18:00</td>
+													<td>已完成 </td>
 													<td>3.1会议室</td>													
+												</tr>																									
+												<tr>																								
+													<td>mulesoft</td>
+													<td>姜万宝</td>
+													<td>移动交付部45人 </td>
+													<td>2017/10/29,9:00-12:00 13:00-18:00</td>
+													<td>已完成 </td>
+													<td>3.1会议室</td>													
+												</tr>															
+												<tr>																								
+													<td>TDD和BDD</td>
+													<td>隋凤丽</td>
+													<td>恒生 </td>
+													<td>2017/10/25，17:30-19:00</td>
+													<td>已完成 </td>
+													<td>F1栋西2F培训室</td>													
 												</tr>	
 												<tr>																								
 													<td>TDD和BDD</td>
 													<td>隋凤丽</td>
 													<td>恒生 </td>
-													<td>2017/10/18，17:30-19:00</td>
+													<td>2017/10/25，17:30-19:00</td>
 													<td>即将进行 </td>
 													<td>F1栋西2F培训室</td>													
-												</tr>																																				
-												<tr>																								
+												</tr>		
+												<tr>											
+													<td>Mulesoft技术培训</td>
+													<td>王磊</td>
+													<td>第一事业部、42人</td>
+													<td>2017/10/22，9:00-12:00、13:00-18:00</td>
+													<td>即将进行 </td>
+													<td>3.1会议室</td>													
+												</tr>																										
+												<tr>											
+													<td>Mulesoft技术培训</td>
+													<td>王磊</td>
+													<td>第一事业部、42人</td>
+													<td>2017/10/22，9:00-12:00、13:00-18:00</td>
+													<td>已完成 </td>
+													<td>3.1会议室</td>													
+												</tr>	
+													<tr>																								
 													<td>Mulesoft技术培训</td>
 													<td>王旭</td>
 													<td>第四&三&二事业部、44人</td>
@@ -241,52 +320,55 @@
 													<td>2017/10/21，13:30-18:00</td>
 													<td>即将进行 </td>
 													<td>3.1会议室</td>													
-												</tr>	
-												<tr>											
+												</tr>																																					
+												<tr>																								
 													<td>Mulesoft技术培训</td>
-													<td>王磊</td>
-													<td>第一事业部、42人</td>
-													<td>2017/10/22，9:00-12:00、13:00-18:00</td>
-													<td>即将进行 </td>
+													<td>王旭</td>
+													<td>第四&三&二事业部、44人</td>
+													<td>2017/10/21，9:00-12:30</td>
+													<td>已完成 </td>
+													<td>3.1会议室</td>													
+												</tr>													
+												<tr>																								
+													<td>Mulesoft技术培训</td>
+													<td>张银龙</td>
+													<td>第四&三&二事业部、44人</td>
+													<td>2017/10/21，13:30-18:00</td>
+													<td>已完成 </td>
 													<td>3.1会议室</td>													
 												</tr>	
 												<tr>																								
 													<td>TDD和BDD</td>
 													<td>隋凤丽</td>
 													<td>恒生 </td>
-													<td>2017/10/25，17:30-19:00</td>
-													<td>即将进行 </td>
+													<td>2017/10/18，17:30-19:00</td>
+													<td>已完成</td>
 													<td>F1栋西2F培训室</td>													
-												</tr>																								
-												</tbody>
-											</table>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="panel panel-default">
-								<div class="panel-heading" role="tab" id="trainingHeading2">
-									<h4 class="panel-title">
-										<a class="collapsed" data-toggle="collapse" data-parent="#trainingAccordion" href="#trainingCollapse2" aria-expanded="false" aria-controls="trainingCollapse2">
-											已完成的培训
-										</a>
-									</h4>
-								</div>
-								<div id="trainingCollapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="trainingHeading2">
-									<div class="panel-body">
-										<div class="table-responsive">
-											<table class="table">
-												<caption></caption>
-												<thead>
-												<tr>
-													<th>课程名称</th>
-													<th>讲师</th>
-													<th>参与部门</th>
-													<th>时间</th>
-													<th>状态</th>
-													<th>地点</th>
-												</thead>												
-												<thead>
+												</tr>	
+												<tr>											
+													<td>Mulesoft技术培训</td>
+													<td>张永泽</td>
+													<td>第一事业部、42人</td>
+													<td>2017/10/15，9:00-12:00、13:00-18:00</td>
+													<td>已完成 </td>
+													<td>3.1会议室</td>													
+												</tr>	
+									      <tr>																								
+													<td>Mulesoft技术培训</td>
+													<td>党勇</td>
+													<td>第四&三&二事业部、44人</td>
+													<td>2017/10/14，9:00-12:30</td>
+													<td>已完成</td>
+													<td>3.1会议室</td>													
+												</tr>	
+												<tr>																								
+													<td>Mulesoft技术培训</td>
+													<td>何益龙</td>
+													<td>第四&三&二事业部、44人</td>
+													<td>2017/10/14，13:30-18:00</td>
+													<td>已完成</td>
+													<td>3.1会议室</td>													
+												</tr>													
 												</tr>																								
 													<td>Junit基础培训</td>
 													<td>王李强</td>
@@ -551,7 +633,6 @@
 													<td>已完成</td>
 													<td>F1栋3楼开放区</td>													
 												</tr>
-												
 												<tr>
 													<td>react进阶课程 </td>
 													<td>王波、陈新峰、张俊、聂钊、韦又瑞、杨华伟 </td>
